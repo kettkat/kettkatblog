@@ -3,7 +3,7 @@ import useInput from "../../hooks/use-input";
 import LoadingSpinner from "../../components/LoadingSpinner";
 import Meta from "../../components/Meta";
 
-function postpoem() {
+function PostPoem() {
   const [poemList, setPoemList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const date = new Date();
@@ -188,4 +188,4 @@ function postpoem() {
   );
 }
 
-export default postpoem;
+export default PostPoem;

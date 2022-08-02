@@ -3,7 +3,7 @@ import Meta from "../../components/Meta";
 import Poem from "../../components/Poem";
 import LoadingSpinner from "../../components/LoadingSpinner";
 
-function poems() {
+function Poems() {
   const [poem, setPoem] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -56,4 +56,4 @@ function poems() {
   );
 }
 
-export default poems;
+export default Poems;

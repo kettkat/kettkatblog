@@ -1,7 +1,4 @@
-//ourdomain.com/
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import profilePic from "../media/katherinekettner.jpg";
 import Meta from "../components/Meta";
 
 export default function HomePage() {
@@ -38,19 +35,10 @@ export default function HomePage() {
         <p>
           This blog is just for my friends, family and myself to "catch up."
           Nothing crazy! Can't wait to share my thoughts and travels.
-        </p>
-        {/* <div className={styles.center}>
-            <Image
-              className={styles.photoresize}
-              src={profilePic}
-              alt="Picture profile of Katherine"
-            />
-          </div> */}
-        <p>
-          <span class="cssbold">XOXO,</span>
+          <span className="cssbold">XOXO,</span>
         </p>
 
-        <span class="cursive">Katherine Kettner</span>
+        <span className="cursive">Katherine Kettner</span>
       </div>
     </>
   );
