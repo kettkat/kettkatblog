@@ -115,7 +115,7 @@ function PostPoem() {
           Fill out the form below to publish your own poem to a Firebase
           database for all visitors to see below!
         </p>
-        <p>Be sure to leave your name, or type 'anonymous'</p>
+        <p>Be sure to leave your name, or type anonymous</p>
       </div>
       <form>
         <div>
