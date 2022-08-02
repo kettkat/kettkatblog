@@ -3,8 +3,6 @@ import styles from "../styles/Home.module.css";
 
 function Poem({ title, author, lines }) {
   const newArray = lines
-  // const LineFunction = lines.map((item,index) => <p key={index}>{item}</p>)
-  console.log(newArray)
   return (
     <div className={styles.center}>
       <h2>{title}</h2>
