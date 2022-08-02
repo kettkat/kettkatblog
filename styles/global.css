@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.center {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Montserrat";
+  line-height: 1.5em;
+  display: block;
+  color: #2d3033;
+}
+h1 {
+  font-family: "Leckerli One";
+  font-size: 2em;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  color: #2d3033;
+}
+
+.error {
+  color: darkred;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Leckerli One";
+  font-size: 1.2em;
+  text-align: center !important;
+  color: #2d3033;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2d3033;
+  text-align: center !important;
+}
+
+nav {
+  text-align: center;
+  width: auto;
+}
+
+button {
+  padding: 8px;
+  background: white;
+  color: #2d3033;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 110px;
+  margin: 10px auto 0;
+  border-radius: 20px;
+  overflow: auto;
+}
+div {
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav li {
+  margin-bottom: 5%;
+}
+
+nav ul li a {
+  color: #2d3033;
+  list-style: none;
+  text-decoration: none;
+}
+form {
+  width: 350px;
+  line-height: 2.5em;
+  color: #2d3033;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffe4e1;
+  padding: 25px;
+  font-family: "Montserrat";
+  font-size: 0.8em;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+form,
+input {
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat";
+}
+
+form,
+textarea {
+  border-radius: 10px;
+  border: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+form,
+label {
+  align-content: left;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: lightgray;
+  color: darkgrey;
+  border-color: lightgrey;
+  cursor: not-allowed;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25px;
+  height: 25px;
+  border: 5px solid rgb(185, 182, 182);
+  border-top: 5px solid #3a3838;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+@media only screen and (min-width: 700px) {
+  #columnone,
+  #columntwo {
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+    text-align: center;
+  }
+
+  form {
+    width: 400px;
+    line-height: 2.5em;
+    color: #2d3033;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffe4e1;
+    padding: 25px;
+    font-family: "Montserrat";
+    font-size: 0.8em;
+    border-radius: 20px;
+    font-size: 1.2em;
+  }
+
+  .tablet {
+    display: contents;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  td {
+    padding: 1em;
+  }
+  .homepage {
+    line-height: 2em;
+    font-size: 1.2em;
+  }
+
+  .homepage h1 {
+    font-size: 1.7em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    text-align: center !important;
+  }
+
+  section {
+    width: 50%;
+    float: left;
+  }
+
+  #outerwrapper {
+    width: 100%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    font-size: 3.3em;
+  }
+
+  nav li {
+    float: left;
+    width: 18%;
+    display: inline;
+    margin-bottom: 5%;
+  }
+
+  nav ul li a {
+    font-size: 1.3em;
+    color: #2d3033;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .hover-item:hover {
+    background-color: inherit;
+  }
+
+  nav ul {
+    margin-left: 9%;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  article {
+    width: 70%;
+  }
+
+  aside {
+    width: 45%;
+    float: right;
+    display: inline;
+    margin-right: 3%;
+  }
+
+  .innercontainer {
+    max-width: 600px;
+  }
+
+  fieldset {
+    padding: 1.5em;
+  }
+
+  input[type="text"] {
+    width: 30em;
+    height: 2em;
+  }
+
+  input[type="tel"] {
+    width: 30em;
+    height: 2em;
+  }
+
+  input[type="email"] {
+    width: 30em;
+    height: 2em;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 1.3em;
+  }
+
+  section ul {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .innercontainer {
+    max-width: 800px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    font-size: 4.2em;
+  }
+  nav li a:hover {
+    color: #000000;
+    font-style: italic;
+  }
+
+  nav li a:visited {
+    color: #2d3033;
+  }
+
+  nav li a:hover {
+    color: #000000;
+    font-style: italic;
+  }
+
+  nav li a:active {
+    color: #a9a9a9;
+  }
+
+  .photoresize {
+    max-width: 5%;
+    max-height: 5%;
+  }
+}
