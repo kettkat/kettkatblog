@@ -2,7 +2,7 @@
 import Meta from "../components/Meta";
 import ContactForm from "../components/ContactForm";
 
-export default function Travels() {
+export default function Contact() {
   return (
     <div>
       <Meta

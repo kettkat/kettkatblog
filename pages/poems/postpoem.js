@@ -54,6 +54,7 @@ function PostPoem() {
       return;
     }
     const poem = {
+      key: title.trim(),
       title: title.trim(),
       author: author.trim(),
       message: message,
@@ -162,7 +163,6 @@ function PostPoem() {
           {messageInputHasError && (
             <label className="error">Poem must have a body</label>
           )}
-          <br />
           {isLoading && <LoadingSpinner />}
           <button
             type="submit"
@@ -170,7 +170,7 @@ function PostPoem() {
             id="submit"
             disabled={!formIsValid}
           >
-            Submit Poem
+            Submit
           </button>
         </div>
       </form>

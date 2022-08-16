@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <p>
         &copy; Copyright 2022. All Rights Reserved. <br />
         <a

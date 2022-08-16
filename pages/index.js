@@ -1,5 +1,6 @@
 import styles from "../styles/Home.module.css";
 import Meta from "../components/Meta";
+import AuthFormV2 from "../components/AuthFormV2";
 
 export default function HomePage() {
   return (
@@ -19,27 +20,23 @@ export default function HomePage() {
         </p>
 
         <h3>
-        &ldquo;The more you do, the more you CAN do.&rdquo; Kudos to my mother for
-          instilling this in my life.
+        &ldquo;The more you do, the more you CAN do.&rdquo; My mother always instilled this in my life.
         </h3>
 
         <p>
           It seems simple.. and it is. The main idea is to do as much as you
           can, whenever you can. The more you experience, the more skills you
-          will add to your life toolkit. In addition, the more insight you will
+          add to your toolkit. In addition, the more insight you will
           have on thoughts other than your own. Whenever I feel overwhelmed with
           tasks, plans, and activities, I remind myself I am only adding value
           to my life. I am allowing myself to know more, and DO more!
         </p>
-        <p className={styles.cssbold}>What&apos;s the purpose of this blog?</p>
         <p>
           This blog is just for my friends, family and myself to &ldquo;catch up.&rdquo;
-          Nothing crazy! Can&apos;t wait to share my thoughts and travels.
+         Can&apos;t wait to share my thoughts and travels.
         </p>
-
-        <p>XOXO,</p>
-
         <h2>Katherine Kettner</h2>
+        <AuthFormV2 />
       </div>
     </>
   );

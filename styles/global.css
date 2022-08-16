@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
 html,
 body {
@@ -25,6 +26,7 @@ p {
 h1 {
   font-family: "Leckerli One";
   font-size: 2em;
+  font-weight: 700;
   text-align: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -40,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Leckerli One";
+  font-family: "Leckerli One" !important;
   font-size: 1.2em;
   text-align: center !important;
   color: #2d3033;
@@ -53,25 +55,58 @@ h3 {
   color: #2d3033;
   text-align: center !important;
 }
+.footer {
+  height: 60px; /* footer height */
+  padding-top: 20px;
+  margin-top: 20px; /* space between content and footer */
+  clear: both;
+}
+.image-wrapper {
+  width: 50%;
+  height: 50%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.fixed-input {
+  width: 100%;
+  height: 30px;
+}
+
+.image-wrapper-horizontal {
+  width: 80%;
+  height: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 
 nav {
   text-align: center;
   width: auto;
+  font-size: 20 !important;
 }
 
 button {
-  padding: 8px;
+  padding: 7px;
   background: white;
   color: #2d3033;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   border: 0;
   outline: none;
   cursor: pointer;
   width: 110px;
   margin: 10px auto 0;
+  margin-left: 5px;
+  margin-right: 5px;
   border-radius: 20px;
   overflow: auto;
+}
+
+.button-modal {
+  background: lightgray;
+  font-size: 15px;
 }
 div {
   text-align: center;
@@ -79,7 +114,7 @@ div {
 
 nav ul li {
   list-style: none;
-  font-weight: bold;
+  font-weight: 300;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -92,6 +127,7 @@ nav ul li a {
   list-style: none;
   text-decoration: none;
 }
+
 form {
   width: 350px;
   line-height: 2.5em;
@@ -162,6 +198,13 @@ button:disabled:active {
   animation: spinner 1.5s linear infinite;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (min-width: 700px) {
   #columnone,
   #columntwo {
@@ -170,6 +213,11 @@ button:disabled:active {
     margin-right: 3%;
     float: left;
     text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
   }
 
   form {
@@ -237,7 +285,7 @@ button:disabled:active {
   }
 
   nav ul li a {
-    font-size: 1.3em;
+    font-size: 3vw;
     color: #2d3033;
     list-style: none;
     text-decoration: none;
