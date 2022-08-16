@@ -6,8 +6,8 @@ function ModalImage() {
   return (
     <div className="image-wrapper-horizontal">
         <br />
-        <Image src={qrImage}/>
-        <p>BOO! You've been spooked.</p>
+        <Image src={qrImage} alt='PI Planning QR Code image'/>
+        <p>BOO! You&apos;ve been spooked.</p>
     </div>
   )
 }
