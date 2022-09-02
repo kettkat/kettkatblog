@@ -12,10 +12,10 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
 p {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
   font-size: 1.1em;
   font-family: "Montserrat";
@@ -54,6 +54,8 @@ h3 {
   font-size: 1.1em;
   color: #2d3033;
   text-align: center !important;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .footer {
   height: 60px; /* footer height */
@@ -104,6 +106,10 @@ button {
   overflow: auto;
 }
 
+html,body{
+  overflow-x: hidden;
+}
+
 .button-modal {
   background: lightgray;
   font-size: 15px;
@@ -128,8 +134,12 @@ nav ul li a {
   text-decoration: none;
 }
 
+.dropDownStyling {
+  font-size: 15px !important;
+}
+
 form {
-  width: 350px;
+  width: 17em;
   line-height: 2.5em;
   color: #2d3033;
   margin-left: auto;
@@ -165,10 +175,7 @@ nav ul {
   margin-right: auto;
   width: 50%;
 }
-form,
-label {
-  align-content: left;
-}
+
 
 button:disabled,
 button:disabled:hover,
@@ -279,13 +286,13 @@ button:disabled:active {
 
   nav li {
     float: left;
-    width: 18%;
+    width: 15%;
     display: inline;
     margin-bottom: 5%;
   }
 
   nav ul li a {
-    font-size: 3vw;
+    font-size: 1.5em;
     color: #2d3033;
     list-style: none;
     text-decoration: none;
@@ -358,6 +365,7 @@ button:disabled:active {
   .container {
     font-size: 4.2em;
   }
+ 
   nav li a:hover {
     color: #000000;
     font-style: italic;

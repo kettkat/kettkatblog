@@ -37,15 +37,13 @@ function ContactForm() {
     valueChangeHandler: emailChangeHandler,
     blurHandler: emailBlurHandler,
     reset: resetEmailInput,
-  } = useInput((value) => value.trim() !== "" && value.length < 25 && EmailValidator === true );
+  } = useInput(
+    (value) =>
+      value.trim() !== "" && value.length < 25 && EmailValidator === true
+  );
 
   let formIsValid = false;
-  if (
-    nameIsValid &&
-    numberIsValid &&
-    messageIsValid &&
-    emailIsValid
-  ) {
+  if (nameIsValid && numberIsValid && messageIsValid && emailIsValid) {
     formIsValid = true;
   }
 
@@ -69,6 +67,11 @@ function ContactForm() {
       return false;
     }
   }
+
+  const styleObj = {
+    textAlign: "left",
+  }
+
   return (
     <form>
       <div>
@@ -117,7 +120,7 @@ function ContactForm() {
         <textarea
           name="message"
           id="message"
-          cols="35"
+          cols="30"
           rows="10"
           value={message}
           onBlur={messageBlurHandler}

@@ -121,6 +121,7 @@ function PostPoem() {
       <form>
         <div>
           <label>Title</label>
+          <br/>
           <input
             type="text"
             name="title"
@@ -134,6 +135,8 @@ function PostPoem() {
           )}
           <br />
           <label>Author</label>
+          <br/>
+
           <input
             type="text"
             name="author"
@@ -153,7 +156,7 @@ function PostPoem() {
           <textarea
             name="message"
             id="message"
-            cols="35"
+            cols="30"
             rows="10"
             value={message}
             onBlur={messageBlurHandler}

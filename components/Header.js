@@ -8,7 +8,7 @@ function Header() {
         src={headerPic}
         alt="Picture collage of Katherine"
         width="10%"
-        height="5%"
+        height="5em"
         layout="responsive"
         priority='true'
       />
