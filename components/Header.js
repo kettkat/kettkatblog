@@ -1,6 +1,5 @@
 import headerPic from "../media/katherine.jpg";
 import Image from "next/image";
-import headerPic2 from "../media/katherine2.jpg";
 
 function Header() {
   return (

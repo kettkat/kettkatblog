@@ -42,7 +42,7 @@ function Poems() {
         the wisdom they give. This page utilizes an asynchronous function to fetch a poem from the API, 
         and then set the JSON response to a title, author, and message.
       </p>
-      <p>Clicking "Grab a Poem" will output a new, random poem from the API!</p>
+      <p>Clicking &quot;Grab a Poem&quot; will output a new, random poem from the API!</p>
 
       {!isLoading && (
         <Poem title={poem.title} author={poem.author} lines={poem.lines} />
