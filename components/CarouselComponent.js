@@ -58,7 +58,7 @@ function TravelCarousel() {
 function Item(props) {
   return (
     <Paper>
-      <h2>{props.item.name}</h2>
+      <h3>{props.item.name}</h3>
       <p>{props.item.funFact}</p>
       <Image src={props.item.imagePath} alt={props.item.altText} />
     </Paper>

@@ -35,11 +35,11 @@ function Poems() {
         description="This page connects to a MongoDB Poem API. Enjoy the various poems and the wisdom they give."
       />
       <div className="center">
-        <h1>Poems</h1>
+        <h2>POEMS</h2>
       </div>
       <p>
         This page connects to a MongoDB Poem API. Enjoy the various poems and
-        the wisdom they give. <br /> Click Grab a Poem to output a new one!
+        the wisdom they give. <br /> Clicking "Grab a Poem" will output a new, random poem from the API!
       </p>
 
       {!isLoading && (

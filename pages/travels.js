@@ -11,7 +11,7 @@ export default function Travels() {
         description="A peak into my travels"
       />
       <div className="center">
-        <h1>Travels</h1>
+        <h2>TRAVELS</h2>
         <TravelCarousel />
       </div>
     </div>

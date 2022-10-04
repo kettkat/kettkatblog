@@ -11,7 +11,7 @@ export default function Contact() {
         description="A form to reach me"
       />
       <div className="center">
-        <h1>Contact Me</h1>
+        <h2>CONTACT &nbsp; ME</h2>
       </div>
       <ContactForm />
     </div>

@@ -12,7 +12,7 @@ function Header() {
         layout="responsive"
         priority='true'
       />
-      <h1>Catchin&rsquo; Up With Kat</h1>
+      <h1 className="titlepage">CATCHIN&rsquo; &nbsp; UP &nbsp; WITH &nbsp; KAT</h1>
     </>
   );
 }

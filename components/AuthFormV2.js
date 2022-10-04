@@ -105,7 +105,7 @@ function AuthFormV2() {
     <div>
       <form>
         <div>
-          <h3>Login or Signup!</h3>
+          <h4>Login or Signup!</h4>
           <label>Email:</label>
           <br />
           <input

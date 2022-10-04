@@ -12,16 +12,16 @@ export default function HomePage() {
       />
       <div>
         <div className="center">
-          <h1>A Little About Me</h1>
+          <h2>ABOUT &nbsp; ME</h2>
         </div>
         <p>
           I love traveling, food, poetry, my sweetest bean Charlie (the cutest
           4lb yorkie), and my friends! My motto for life is that...
         </p>
 
-        <h3>
+        <h4>
         &ldquo;The more you do, the more you CAN do.&rdquo; My mother always instilled this in my life.
-        </h3>
+        </h4>
 
         <p>
           It seems simple.. and it is. The main idea is to do as much as you
@@ -35,7 +35,8 @@ export default function HomePage() {
           This blog is just for my friends, family and myself to &ldquo;catch up.&rdquo;
          Can&apos;t wait to share my thoughts and travels.
         </p>
-        <h2>Katherine Kettner</h2>
+        <h4>xoxo,</h4>
+        <h4>Katherine Kettner</h4>
         <AuthFormV2 />
       </div>
     </>

@@ -111,15 +111,17 @@ function PostPoem() {
         description="A form to reach me"
       />
       <div className="center">
-        <h1>Publish a Poem!</h1>
+        <h2>PUBLISH A POEM</h2>
+        <p> This form connects to a FireBase database that stores a title, author, poem, and date published.</p>
         <p>
-          Fill out the form below to publish your own poem to a Firebase
-          database for all visitors to see below!
+          Fill it out below to publish your own poem to the
+          database for all visitors to see!
         </p>
         <p>Be sure to leave your name, or type anonymous</p>
       </div>
       <form>
         <div>
+          <h4>Poem Form</h4>
           <label>Title</label>
           <br/>
           <input
@@ -151,7 +153,7 @@ function PostPoem() {
             </label>
           )}
           <br />
-          <label>Poem</label>
+          <label>Message</label>
           <br />
           <textarea
             name="message"

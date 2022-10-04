@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@700&display=swap");
 
 html,
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 p {
-    margin-left: 10%;
+  margin-left: 10%;
   margin-right: 10%;
   text-align: center;
   font-size: 1.1em;
@@ -23,14 +24,14 @@ p {
   display: block;
   color: #2d3033;
 }
+
 h1 {
-  font-family: "Leckerli One";
+  font-family: 'ui monospace';
+  font-style: italic;
   font-size: 2em;
-  font-weight: 700;
   text-align: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
-
   color: #2d3033;
 }
 
@@ -42,20 +43,28 @@ h1 {
 }
 
 h2 {
-  font-family: "Leckerli One" !important;
-  font-size: 1.2em;
+  font-family: 'ui monospace';
+  font-style: italic;
+  font-weight: bold;
   text-align: center !important;
   color: #2d3033;
 }
 
 h3 {
-  font-family: "Montserrat";
+  font-family: Caveat;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 2em;
   color: #2d3033;
   text-align: center !important;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: #2d3033;
 }
 .footer {
   height: 60px; /* footer height */
@@ -106,7 +115,8 @@ button {
   overflow: auto;
 }
 
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -175,7 +185,6 @@ nav ul {
   margin-right: auto;
   width: 50%;
 }
-
 
 button:disabled,
 button:disabled:hover,
@@ -265,6 +274,7 @@ button:disabled:active {
     font-size: 2em;
   }
   h2 {
+    font-size: 2em;
     text-align: center !important;
   }
 
@@ -362,10 +372,11 @@ button:disabled:active {
     font-size: 3em;
   }
 
+
   .container {
     font-size: 4.2em;
   }
- 
+
   nav li a:hover {
     color: #000000;
     font-style: italic;

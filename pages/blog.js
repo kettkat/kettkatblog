@@ -6,7 +6,6 @@ import Modal from "react-modal";
 import ModalImage from "../components/ModalImage";
 import { useState } from "react";
 import illinoisImage from "../media/illinois.jpeg";
-import goose from "../media/goose.jpeg";
 
 export default function Blog() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -31,11 +30,7 @@ export default function Blog() {
         description="A peak into my favorite excerpts, books, poems, and more"
       />
       <div className="center">
-        <h1>Blog</h1>
-        <p>
-          Before golfing, we had PI Planning as a team. View the following image
-          at your own risk.
-        </p>
+        <h2>BLOG</h2>
         <button
           className="button-modal"
           onClick={() => {
@@ -61,7 +56,7 @@ export default function Blog() {
         </Modal>
       </div>
       <div className="column">
-        <h2>Weekend in Woodstock Historic District</h2>
+        <h3>Weekend in Woodstock Historic District</h3>
         <h3>July 16, 2022</h3>
         <p>
           In order to attend a wedding in Wisconsin, Morghan and I made a
@@ -78,7 +73,7 @@ export default function Blog() {
         </div>
       </div>
       <div className="column">
-        <h2>Team Golfing at Broadmoor</h2>
+        <h3>Team Golfing at Broadmoor</h3>
         <h3>August 5, 2022</h3>
         <p>
           After PI Planning, the web team took off to Broadmoor for a five
@@ -93,12 +88,6 @@ export default function Blog() {
             priority="true"
           />
           <br />
-          <Image
-            src={goose}
-            alt="goose meme"
-            layout="responsive"
-            priority="true"
-          />
         </div>
       </div>
     </div>
