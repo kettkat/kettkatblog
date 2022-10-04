@@ -25,6 +25,18 @@ p {
   color: #2d3033;
 }
 
+.centered-lists {
+  font-family: "Montserrat";
+  color: #2d3033;
+  line-height: 1.5em;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.centered-li-tag {
+  text-align: left;
+}
+
 h1 {
   font-family: 'ui monospace';
   font-style: italic;
@@ -63,6 +75,7 @@ h3 {
 h4 {
   font-family: "Montserrat";
   font-weight: bolder;
+  line-height: 1.6em;
   font-size: 1.2em;
   color: #2d3033;
 }

@@ -112,7 +112,7 @@ function PostPoem() {
       />
       <div className="center">
         <h2>PUBLISH A POEM</h2>
-        <p> This form connects to a FireBase database that stores a title, author, poem, and date published.</p>
+        <p> This form connects to a FireBase database that I created to store a title, author, poem, and date published from each submission.</p>
         <p>
           Fill it out below to publish your own poem to the
           database for all visitors to see!

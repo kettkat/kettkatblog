@@ -1,5 +1,6 @@
 import headerPic from "../media/katherine.jpg";
 import Image from "next/image";
+import headerPic2 from "../media/katherine2.jpg";
 
 function Header() {
   return (
@@ -18,3 +19,12 @@ function Header() {
 }
 
 export default Header;
+
+{/* <Image
+        src={headerPic2}
+        alt="Picture collage of Katherine"
+        width="10%"
+        height="5em"
+        layout="responsive"
+        priority='true'
+      /> */}

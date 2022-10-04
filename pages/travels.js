@@ -10,10 +10,13 @@ export default function Travels() {
         keywords="blog, katherine k, traveling"
         description="A peak into my travels"
       />
-      <div className="center">
-        <h2>TRAVELS</h2>
+       <h2>TRAVELS</h2>
+        <p>The carousel functionality below is from Material UI. The images are from places I've traveled to around the world that 
+          are displayed utilizing a map function to a component with a header, paragraph, and image element. Enjoy!
+        </p>
+        <div className="center">
         <TravelCarousel />
-      </div>
+        </div>
     </div>
   );
 }
