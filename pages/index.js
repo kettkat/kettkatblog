@@ -20,7 +20,7 @@ export default function HomePage() {
 
         <p>I put a lot of thought into this blog to make it accessible, aesthetically pleasing, and easy to navigate. It is currently uploaded to a GitHub repository, and hosted by Vercel, a platform to host Next.Js web applications.
           I hope you enjoy clicking through it!</p>
-        <p> <b>Some of the features I've made sure to implement...</b></p>
+        <p> <b>Some of the features I&apos;ve made sure to implement...</b></p>
         <div className="centered-lists">
         <ul className="centered-li-tag">
           <li>Completely responsive webpage, geared toward both mobile and desktop viewers</li>

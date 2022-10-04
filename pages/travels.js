@@ -11,7 +11,7 @@ export default function Travels() {
         description="A peak into my travels"
       />
        <h2>TRAVELS</h2>
-        <p>The carousel functionality below is from Material UI. The images are from places I've traveled to around the world that 
+        <p>The carousel functionality below is from Material UI. The images are from places I&apos;ve traveled to around the world that 
           are displayed utilizing a map function to a component with a header, paragraph, and image element. Enjoy!
         </p>
         <div className="center">
