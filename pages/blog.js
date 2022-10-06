@@ -25,8 +25,8 @@ export default function Blog() {
   return (
     <div>
       <Meta
-        title="Favorite Reads"
-        keywords="blog, katherine k, favorite reads, poems, books, music"
+        title="Catchin Up With Kat- Various Blog Posts"
+        keywords="blog, katherine k, favorite reads, poems, books, music, travels"
         description="A peak into my favorite excerpts, books, poems, and more"
       />
       <div className="center">
@@ -67,6 +67,7 @@ export default function Blog() {
           <Image
             src={illinoisImage}
             alt="Picture the Airbnb in Illinois"
+            title="Airbnb in Woodstock Historic District"
             layout="responsive"
             priority="true"
           />
@@ -83,7 +84,8 @@ export default function Blog() {
         <div className="image-wrapper">
           <Image
             src={Golf}
-            alt="Picture collage of Katherine"
+            alt="Golfing at Broadmoor group image"
+            title="Golfing at Broadmoor group image"
             layout="responsive"
             priority="true"
           />

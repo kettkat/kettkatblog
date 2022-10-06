@@ -22,15 +22,15 @@ p {
   font-family: "Montserrat";
   line-height: 1.5em;
   display: block;
-  color: #2d3033;
+  color: #232628;
 }
 
 .centered-lists {
   font-family: "Montserrat";
-  color: #2d3033;
+  color: #232628;
   line-height: 1.5em;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .centered-li-tag {
@@ -44,7 +44,7 @@ h1 {
   text-align: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  color: #2d3033;
+  color: #232628;
 }
 
 .error {
@@ -59,14 +59,14 @@ h2 {
   font-style: italic;
   font-weight: bold;
   text-align: center !important;
-  color: #2d3033;
+  color: #232628;
 }
 
 h3 {
   font-family: Caveat;
   font-weight: bold;
   font-size: 2em;
-  color: #2d3033;
+  color: #232628;
   text-align: center !important;
   margin-left: 10%;
   margin-right: 10%;
@@ -77,13 +77,14 @@ h4 {
   font-weight: bolder;
   line-height: 1.6em;
   font-size: 1.2em;
-  color: #2d3033;
+  color: #232628;
 }
 .footer {
   height: 60px; /* footer height */
   padding-top: 20px;
   margin-top: 20px; /* space between content and footer */
   clear: both;
+  font-size: .9em;
 }
 .image-wrapper {
   width: 50%;
@@ -113,7 +114,7 @@ nav {
 button {
   padding: 7px;
   background: white;
-  color: #2d3033;
+  color: #232628;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -133,10 +134,7 @@ body {
   overflow-x: hidden;
 }
 
-.button-modal {
-  background: lightgray;
-  font-size: 15px;
-}
+
 div {
   text-align: center;
 }
@@ -152,7 +150,7 @@ nav li {
 }
 
 nav ul li a {
-  color: #2d3033;
+  color: #232628;
   list-style: none;
   text-decoration: none;
 }
@@ -164,7 +162,7 @@ nav ul li a {
 form {
   width: 17em;
   line-height: 2.5em;
-  color: #2d3033;
+  color: #232628;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffe4e1;
@@ -249,6 +247,11 @@ button:disabled:active {
     width: 50%;
   }
 
+  p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
   form {
     width: 400px;
     line-height: 2.5em;
@@ -274,14 +277,9 @@ button:disabled:active {
   td {
     padding: 1em;
   }
-  .homepage {
-    line-height: 2em;
-    font-size: 1.2em;
-  }
+ 
 
-  .homepage h1 {
-    font-size: 1.7em;
-  }
+
 
   h1 {
     font-size: 2em;
@@ -316,7 +314,7 @@ button:disabled:active {
 
   nav ul li a {
     font-size: 1.5em;
-    color: #2d3033;
+    color: #232628;
     list-style: none;
     text-decoration: none;
   }
@@ -396,7 +394,7 @@ button:disabled:active {
   }
 
   nav li a:visited {
-    color: #2d3033;
+    color: #232628;
   }
 
   nav li a:hover {

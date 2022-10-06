@@ -6,7 +6,7 @@ export default function Travels() {
   return (
     <div>
       <Meta
-        title="Travels"
+        title="Catchin Up With Kat- Travels"
         keywords="blog, katherine k, traveling"
         description="A peak into my travels"
       />

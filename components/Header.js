@@ -6,7 +6,8 @@ function Header() {
     <>
       <Image
         src={headerPic}
-        alt="Picture collage of Katherine"
+        alt="Picture collage of Katherine, includes picture of dog, family, friends, accessories, and nature shots"
+        title="Katherine Kettner collage"
         width="10%"
         height="5em"
         layout="responsive"

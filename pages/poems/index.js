@@ -30,7 +30,7 @@ function Poems() {
   return (
     <div>
       <Meta
-        title="Poem API"
+        title="Catching Up With Kat- Poem API Output"
         keywords="blog, favorite reads, poems, books, music"
         description="This page connects to a MongoDB Poem API. Enjoy the various poems and the wisdom they give."
       />

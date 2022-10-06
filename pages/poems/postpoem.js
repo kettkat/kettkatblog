@@ -106,7 +106,7 @@ function PostPoem() {
   return (
     <div>
       <Meta
-        title="Write your own poem"
+        title="Catchin Up With Kat- Write Your Own Poem"
         keywords="blog, katherine k, message, contact, email"
         description="A form to reach me"
       />
@@ -115,7 +115,7 @@ function PostPoem() {
         <p> This form connects to a FireBase database that I created to store a title, author, poem, and date published from each submission.</p>
         <p>
           Fill it out below to publish your own poem to the
-          database for all visitors to see!
+          database for all visitors to see! After filling out all fields, press &quot;Submit&quot; at the bottom of the form to send it to the database.
         </p>
         <p>Be sure to leave your name, or type anonymous</p>
       </div>
