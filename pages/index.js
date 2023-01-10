@@ -111,9 +111,8 @@ export default function HomePage() {
           src={KatherineHeadshot}
           alt="Catherine Kettner Headshot image"
           title="Professional Headshot of Catherine Kettner"
-          layout="responsive"
           priority="true"
-          
+          className="img-responsive"
         />
         </div>
         <h4>Katherine Kettner</h4>

@@ -60,7 +60,7 @@ function Item(props) {
     <Paper>
       <h3>{props.item.name}</h3>
       <p>{props.item.funFact}</p>
-      <Image src={props.item.imagePath} alt={props.item.altText} />
+      <Image src={props.item.imagePath} alt={props.item.altText} style={{ width: '100%', maxWidth: '500px', height: 'auto'}}/>
     </Paper>
   );
 }

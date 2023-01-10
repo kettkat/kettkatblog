@@ -6,11 +6,9 @@ function Header() {
     <>
       <Image
         src={headerPic}
+        className="header-image"
         alt="Picture collage of Katherine, includes picture of dog, family, friends, accessories, and nature shots"
         title="Katherine Kettner collage"
-        width="10%"
-        height="5em"
-        layout="responsive"
         priority='true'
       />
       <h1 className="titlepage">CATCHIN&rsquo; &nbsp; UP &nbsp; WITH &nbsp; KAT</h1>

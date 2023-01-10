@@ -113,6 +113,11 @@ h4 {
   overflow: hidden;
   margin-bottom: 2.5%;
 }
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .fixed-input {
   width: 100%;
@@ -131,6 +136,11 @@ nav {
   width: auto;
   font-size: 20 !important;
 }
+.header-image {
+  width: 100%;
+  height: auto;
+}
+
 
 button {
   padding: 7px;
