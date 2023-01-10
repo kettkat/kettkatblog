@@ -185,7 +185,7 @@ function PostPoem() {
       </form>
       <div className="poem-container">
         {poemList.map((poems) => (
-          <div class="poem-card">
+          <div className="poem-card">
             <div className="poem-title">{poems.title}</div>
             <div className="poem-message">{poems.message}</div>
             <div className="poem-author">{poems.author}</div>
