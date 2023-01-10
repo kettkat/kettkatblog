@@ -49,7 +49,9 @@ function PostPoem() {
 
   async function addPoemHandler(event) {
     event.preventDefault();
+    
     setIsLoading(true);
+    const messageWithLineBreaks = message.replace(/\n/g, "\n");
     if (!formIsValid) {
       return;
     }
@@ -57,9 +59,10 @@ function PostPoem() {
       key: title.trim(),
       title: title.trim(),
       author: author.trim(),
-      message: message,
+      message: messageWithLineBreaks,
       date: date.toLocaleString("en-US", options),
     };
+    console.log(poem)
     const response = await fetch(
       "https://poems-e8dc6-default-rtdb.firebaseio.com/poems.json",
       {
@@ -95,6 +98,7 @@ function PostPoem() {
         message: data[key].message,
       });
     }
+    console.log(loadedPoems)
     setPoemList(loadedPoems);
     setIsLoading(false);
   }
@@ -104,7 +108,7 @@ function PostPoem() {
     fetchPoemHandler();
   }, []);
   return (
-    <div>
+    <>
       <Meta
         title="Catchin Up With Kat- Write Your Own Poem"
         keywords="blog, katherine k, message, contact, email"
@@ -166,7 +170,7 @@ function PostPoem() {
           ></textarea>
           <br />
           {messageInputHasError && (
-            <label className="error">Poem must have a body</label>
+            <label className="error">Poem must have a message</label>
           )}
           {isLoading && <LoadingSpinner />}
           <button
@@ -179,17 +183,17 @@ function PostPoem() {
           </button>
         </div>
       </form>
-      <div>
+      <div className="poem-container">
         {poemList.map((poems) => (
-          <>
-            <h2>{poems.title}</h2>
-            <h3>{poems.author}</h3>
-            <p>{poems.message}</p>
-            <p>{poems.date}</p>
-          </>
+          <div class="poem-card">
+            <div className="poem-title">{poems.title}</div>
+            <div className="poem-message">{poems.message}</div>
+            <div className="poem-author">{poems.author}</div>
+            <div className="poem-date">{poems.date}</div>
+          </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

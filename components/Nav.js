@@ -19,7 +19,7 @@ function Nav() {
     <nav>
       <ul>
         <li>
-          <Link href="/blog">Blog</Link>
+          <Link href="/blog">Portfolio</Link>
         </li>
 
         <li>

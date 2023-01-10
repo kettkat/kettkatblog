@@ -3,7 +3,8 @@ import Meta from "../components/Meta";
 import AuthFormV2 from "../components/AuthFormV2";
 import Link from "next/link";
 import Head from "next/head";
-
+import KatherineHeadshot from "../media/KatherineHeadshot.jpeg";
+import Image from "next/image";
 export default function HomePage() {
   return (
     <>
@@ -40,7 +41,6 @@ export default function HomePage() {
         <div className="centered-lists">
           <ul className="centered-li-tag">
             <li>
-              
               <b>Completely responsive webpage, </b> geared toward both mobile
               and desktop viewers
             </li>
@@ -53,7 +53,7 @@ export default function HomePage() {
             <br />
             <li>
               <b>
-                Line heights and fonts ensure that this page is easy to follow, 
+                Line heights and fonts ensure that this page is easy to follow,
               </b>
               The font used is Montserrat, a geometric adaptation of sans serif
               used by many popular companies.
@@ -66,20 +66,21 @@ export default function HomePage() {
             <br />
             <li>
               <b>
-                Forms on this page are aimed to have the best user experience 
+                Forms on this page are aimed to have the best user experience
               </b>
               by updating the user while filling out the form if a field cannot
               be empty, or is invalid. Submit buttons are disabled until the
               form is properly filled out to ensure that no incomplete forms are
-              submitted. View 
+              submitted. View
               <Link href="/poems/postpoem">
                 <b> Post a Poem </b>
               </Link>
-               for an example!
+              for an example!
             </li>
             <br />
             <li>
-              <b>Score of 95+ on both SEO and Accessibility </b> when running Google's developer tool, Lighthouse, on each page
+              <b>Score of 95+ on both SEO and Accessibility </b> when running
+              Google's developer tool, Lighthouse, on each page
             </li>
           </ul>
         </div>
@@ -101,10 +102,20 @@ export default function HomePage() {
         </p>
         <p>
           This blog is just for my friends, family and myself to &ldquo;catch
-          up.&rdquo; It allows allows a space for me to showcase some of the tools
-          I've been learning while pursuing my degree at Grand Valley.
-          Can&apos;t wait to share my thoughts and travels.
+          up.&rdquo; It allows allows a space for me to showcase some of the
+          tools I've been learning while pursuing my degree at Grand Valley.
+          Can&apos;t wait to share my thoughts, designs, and travels.
         </p>
+        <div className="headshot-wrapper">
+        <Image
+          src={KatherineHeadshot}
+          alt="Catherine Kettner Headshot image"
+          title="Professional Headshot of Catherine Kettner"
+          layout="responsive"
+          priority="true"
+          
+        />
+        </div>
         <h4>Katherine Kettner</h4>
         {/* <AuthFormV2 /> */}
       </div>
